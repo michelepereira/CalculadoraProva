@@ -1,0 +1,95 @@
+object Form1: TForm1
+  Left = 464
+  Height = 300
+  Top = 161
+  Width = 400
+  Caption = 'Form1'
+  ClientHeight = 300
+  ClientWidth = 400
+  DesignTimePPI = 120
+  LCLVersion = '2.0.8.0'
+  object edtValor1: TEdit
+    Left = 88
+    Height = 28
+    Top = 8
+    Width = 100
+    OnChange = edtValor1Change
+    TabOrder = 0
+  end
+  object edtValor2: TEdit
+    Left = 88
+    Height = 28
+    Top = 40
+    Width = 100
+    OnChange = edtValor2Change
+    TabOrder = 1
+  end
+  object Label1: TLabel
+    Left = 16
+    Height = 20
+    Top = 8
+    Width = 49
+    Caption = 'Valor 1:'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 16
+    Height = 20
+    Top = 40
+    Width = 49
+    Caption = 'Valor 2:'
+    ParentColor = False
+  end
+  object edtRetorno: TEdit
+    Left = 95
+    Height = 28
+    Top = 120
+    Width = 281
+    AutoSize = False
+    TabOrder = 2
+  end
+  object btnMais: TButton
+    Left = 272
+    Height = 43
+    Top = 8
+    Width = 48
+    Caption = '+'
+    OnClick = btnMaisClick
+    TabOrder = 3
+  end
+  object btnMenos: TButton
+    Left = 328
+    Height = 42
+    Top = 8
+    Width = 48
+    Caption = '-'
+    OnClick = btnMenosClick
+    TabOrder = 4
+  end
+  object btnDividir: TButton
+    Left = 328
+    Height = 42
+    Top = 56
+    Width = 48
+    Caption = '/'
+    OnClick = btnDividirClick
+    TabOrder = 5
+  end
+  object btnMultiplicar: TButton
+    Left = 272
+    Height = 42
+    Top = 56
+    Width = 46
+    Caption = '*'
+    OnClick = btnMultiplicarClick
+    TabOrder = 6
+  end
+  object lbResultado: TLabel
+    Left = 16
+    Height = 20
+    Top = 120
+    Width = 69
+    Caption = 'Resultado:'
+    ParentColor = False
+  end
+end
